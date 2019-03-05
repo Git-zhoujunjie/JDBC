@@ -50,34 +50,6 @@ public class Demo11 {
         } finally {
             JDBCUtil.close(os,bis,rs,ps,conn);
 
-//            try {
-//                if (reader != null) {
-//                    reader.close();
-//                }
-//            } catch (IOException e) {
-//                e.printStackTrace();
-//            }
-//            try {
-//                if (null != rs) {
-//                    rs.close();
-//                }
-//            } catch (SQLException e) {
-//                e.printStackTrace();
-//            }
-//            try {
-//                if (null != ps) {
-//                    ps.close();
-//                }
-//            } catch (SQLException e) {
-//                e.printStackTrace();
-//            }
-//            try {
-//                if (null != conn) {
-//                    conn.close();
-//                }
-//            } catch (SQLException e) {
-//                e.printStackTrace();
-//            }
         }
     }
 }

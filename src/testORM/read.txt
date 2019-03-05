@@ -1,0 +1,3 @@
+
+ORM（Object Relationship Mapping）基本思想
+    表结构跟类对应；表中字段和类的属性对应；表中记录与对象对应
